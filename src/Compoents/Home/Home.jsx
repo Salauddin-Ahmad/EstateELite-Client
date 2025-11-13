@@ -6,6 +6,7 @@ import Testimonials from "../Testimonials/Testimonials";
 import WhyUS from "../WhyUS";
 import Sliders from "./Sliders";
 import SkeletonDynamic from "../skeletons/SkeletonDynamic";
+import Navbar from "../Navbar";
 
 
 
@@ -24,8 +25,12 @@ const Home = () => {
     if (error) return <div>Error: {error.message}</div>;
 
     return (
-        <div>
-            <Sliders></Sliders>
+        <div className="relative -mt-28">
+            <Navbar></Navbar>
+           <div className="position">
+             
+             <Sliders></Sliders>
+           </div>
            <div className="max-w-screen mx-auto px-10">
              {!isLoading ? <AdvertisedLists /> : <SkeletonDynamic cardCount={6} />}
             <Testimonials></Testimonials>
