@@ -3,11 +3,11 @@ import { Navigation, Pagination, Scrollbar, Autoplay } from "swiper/modules";
 import "swiper/swiper-bundle.css";
 
 const Sliders = () => {
-  <div>
-  <h1 className="text-2xl"> Discover and buy Real Estate Properties</h1>
- </div>
+//   <div>
+//   <h1 className="text-2xl"> Discover and buy Real Estate Properties</h1>
+//  </div>
   return (
-    <div className="mb-5 mt-[2px]">
+    <div className="">
  
       <Swiper
         modules={[Navigation, Pagination, Scrollbar, Autoplay]}
@@ -27,8 +27,7 @@ const Sliders = () => {
             style={{
               width: "100%",
               height: "95vh",
-              marginTop: "20px",
-              borderRadius: "5px"
+              borderRadius: "2px"
             }}
           />
         </SwiperSlide>
@@ -39,8 +38,8 @@ const Sliders = () => {
             style={{
               width: "100%",
               height: "95vh",
-              marginTop: "20px",
-              borderRadius: "5px"
+            
+              borderRadius: "2px"
             }}
           />
         </SwiperSlide>
@@ -51,24 +50,11 @@ const Sliders = () => {
             style={{
               width: "100%",
               height: "95vh",
-              marginTop: "20px",
-              borderRadius: "5px"
-            }}
-          />
-        </SwiperSlide>
-        {/* <SwiperSlide>
-          <img
-            src="https://i.ibb.co.com/sF2f
-            +-PWx/photo-1721149122657-7b5440f39160.jpg"
-            alt=""
-            style={{
-              width: "100%",
-              height: "95vh",
-              marginTop: "20px",
               borderRadius: "2px"
             }}
           />
-        </SwiperSlide> */}
+        </SwiperSlide>
+   
         <SwiperSlide>
           <img
             src="https://i.postimg.cc/hjdTDr7y/ronnie-george-9g-Gv-NWBe-Oq4-unsplash.jpg"
@@ -76,7 +62,6 @@ const Sliders = () => {
             style={{
               width: "100%",
               height: "95vh",
-              marginTop: "20px",
               borderRadius: "2px"
             }}
           />

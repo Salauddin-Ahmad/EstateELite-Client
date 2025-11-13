@@ -26,10 +26,12 @@ const Home = () => {
     return (
         <div>
             <Sliders></Sliders>
-            {!isLoading ? <AdvertisedLists /> : <SkeletonDynamic cardCount={6} />}
+           <div className="max-w-screen mx-auto px-10">
+             {!isLoading ? <AdvertisedLists /> : <SkeletonDynamic cardCount={6} />}
             <Testimonials></Testimonials>
             <WhyUS></WhyUS>
             <FAQSection></FAQSection>
+           </div>
         </div>
     );
 };

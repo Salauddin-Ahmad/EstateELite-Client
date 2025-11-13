@@ -1,6 +1,6 @@
 const WhyUS = () => {
   return (
-    <div className="h-full min-h-screen w-full bg-inherit pt-10 p-4">
+    <div className=" w-full bg-inherit py-10 ">
       <h1 className="text-3xl font-extrabold text-center mb-10 font-sans">Why Choose Us?</h1>
       <div className="grid gap-14 md:grid-cols-3 md:gap-5">
 
