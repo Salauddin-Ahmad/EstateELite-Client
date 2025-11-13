@@ -219,7 +219,7 @@ const Navbar = () => {
       className="fixed top-4 left-1/2 -translate-x-1/2 z-50
       w-[95%] max-w-screen 
       flex items-center justify-between gap-4
-      px-6 py-6 rounded-full border border-white/20
+      px-6 py-6 rounded-full border border-white
       bg-[rgba(0,0,0,0.3)] backdrop-blur-[8px]
       shadow-[0_8px_32px_rgba(31,38,135,0.37)]
       hover:shadow-[0_0_50px_rgba(50,130,184,0.5)]
@@ -233,9 +233,11 @@ const Navbar = () => {
           src="https://i.ibb.co/CVjTYfB/Screenshot-2024-06-01-123321.png"
           alt="logo"
         />
-        <span className="font-bold text-4xl text-white/90 tracking-wide drop-shadow-[0_2px_4px_rgba(255,255,255,0.3)]">
+        {/* <span className="font-bold text-4xl text-white/90 tracking-wide drop-shadow-[0_2px_4px_rgba(255,255,255,0.3)]">
           EstateElite
-        </span>
+        </span> */}
+
+         <span className="self-center text-3xl font-semibold whitespace-nowrap text-gradient animate-gradient ">EstateElite</span>
       </NavLink>
 
       {/* Nav Links */}
